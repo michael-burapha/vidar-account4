@@ -66,7 +66,7 @@ class DatabaseSeeder extends Seeder
         // --- Admin user -----------------------------------------------------
         User::updateOrCreate(
             ['email' => 'admin@vidar.digital'],
-            ['name' => 'Vidar Admin', 'password' => Hash::make('password')]
+            ['name' => 'Vidar Admin', 'password' => Hash::make('password1')]
         );
     }
 }
